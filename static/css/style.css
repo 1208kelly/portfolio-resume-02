@@ -1,7 +1,17 @@
-
-
+:root{
+    --mainText: red;
+}
 
 html, body {
     background-color: blue;
     padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+}
+
+p, li, span, label, input, textarea{
+
 }
