@@ -21,3 +21,13 @@ h1, h2, h3, h4, h5, h6, strong{
 p, li, span, label, input, textarea{
 
 }
+
+s1{
+    background-color: var(--mainColor);
+    border-bottom: var(--borderColor);
+}
+
+s2{
+    background-color: var(--secondaryColor);
+    border-bottom: var(--borderColor);
+}
