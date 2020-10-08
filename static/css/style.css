@@ -1,5 +1,6 @@
 :root{
-    --mainText: red;
+    --mainText: black;
+    --secondaryText: red;
 }
 
 html, body {
