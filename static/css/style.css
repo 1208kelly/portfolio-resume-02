@@ -24,10 +24,23 @@ p, li, span, label, input, textarea{
 
 s1{
     background-color: var(--mainColor);
-    border-bottom: var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
 }
 
 s2{
     background-color: var(--secondaryColor);
-    border-bottom: var(--borderColor);
+    border-bottom: 1px solid var(--borderColor);
+    overflow: auto;
+}
+
+main-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1200px){
+    .main-container{
+        width: 95%;
+    }
 }
