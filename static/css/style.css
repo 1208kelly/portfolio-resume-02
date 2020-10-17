@@ -58,6 +58,14 @@ h6 {font-size: 16px;}
     margin: 0 auto;
 }
 
+.greeting-wrapper {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 2px dashed lightblue;
+    min-height: 20em;
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
