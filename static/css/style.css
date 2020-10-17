@@ -17,6 +17,7 @@ html, body {
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 p, li, span, label, input, textarea{   
