@@ -22,6 +22,22 @@ p, li, span, label, input, textarea{
     color: var(--secondaryText);
 }
 
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {font-size: 56px;}
+h2 {font-size: 36px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 16px;}
+
 .s1{
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
