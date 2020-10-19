@@ -76,6 +76,7 @@ h6 {font-size: 16px;}
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em 30em;
     grid-template-areas: 
         'nav-wrapper nav-wrapper'
         'left-column right-column'
