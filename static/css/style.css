@@ -9,7 +9,7 @@
 }
 
 html, body {
-    background-color: green;
+    background-color: slategray;
     padding: 12;
     margin: 6;
 }
@@ -58,12 +58,16 @@ h6 {font-size: 16px;}
     margin: 0 auto;
 }
 
+.name-highlight{
+    color: #008dc4;
+}
+
 .greeting-wrapper {
     display: grid;
-    justify-content: center;
+    text-align: center;
     align-content: center;
     border: 2px dashed lightblue;
-    min-height: 20em;
+    min-height: 10em;
 }
 
 @media screen and (max-width: 1200px){
