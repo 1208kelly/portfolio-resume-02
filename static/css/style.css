@@ -66,7 +66,6 @@ h6 {font-size: 16px;}
     display: grid;
     text-align: center;
     align-content: center;
-    border: 2px dashed lightblue;
     min-height: 10em;
 }
 
@@ -85,17 +84,14 @@ h6 {font-size: 16px;}
 
 .nav-wrapper{
     grid-area: nav-wrapper;
-    border: 1px dashed lightblue;
 }
 
 .left-column{
     grid-area: left-column;
-    border: 1px dashed lightblue;
 }
 
 .right-column{
     grid-area: right-column;
-    border: 1px dashed lightblue;
 }
 
 @media screen and (max-width: 1200px){
