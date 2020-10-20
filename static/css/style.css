@@ -86,6 +86,7 @@ h6 {font-size: 16px;}
 .nav-wrapper{
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
+    display: flex;
 }
 
 .left-column{
