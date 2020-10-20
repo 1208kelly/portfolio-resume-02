@@ -87,6 +87,7 @@ h6 {font-size: 16px;}
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
     display: flex;
+    justify-content: space-between;
 }
 
 .left-column{
