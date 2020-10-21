@@ -89,11 +89,25 @@ h6 {font-size: 16px;}
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--mainColor);
+    border-radius: 5px 5px 0 0;
 }
 
 .wrapper-left{
     display: flex;
     padding: 10px;
+}
+
+#dot-1{
+    background-color: #red;
+}
+
+#dot-2{
+    background-color: #yellow;
+}
+
+#dot-3{
+    background-color: #green;
 }
 
 .browser-dot{
