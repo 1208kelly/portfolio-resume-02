@@ -111,15 +111,15 @@ h6 {font-size: 16px;}
 }
 
 #dot-1{
-    background-color: #red;
+    background-color: red;
 }
 
 #dot-2{
-    background-color: #yellow;
+    background-color: yellow;
 }
 
 #dot-3{
-    background-color: #green;
+    background-color: green;
 }
 
 .browser-dot{
