@@ -196,7 +196,8 @@ h6 {font-size: 16px;}
 #preview{
     width: 300px;
     border: 1.5px solid #008dc4;
-    background-color: var(--previewBg)
+    background-color: var(--previewBg);
+    padding: 15px;
 
 }
 
