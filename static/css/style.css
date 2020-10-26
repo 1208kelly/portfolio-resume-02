@@ -159,6 +159,30 @@ h6 {font-size: 16px;}
     border: 2px solid var(--themeDotBorder);
 }
 
+.theme-dot:hover{
+    border-width: 5px;
+}
+
+#light-mode{
+    background-color: #fff;
+}
+
+#blue-mode{
+    background-color: blue;
+}
+
+#green-mode{
+    background-color: green;
+}
+
+#purple-mode{
+    background-color: purple;
+}
+
+#settings-note{
+    
+}
+
 .right-column{
     grid-area: right-column;
 }
