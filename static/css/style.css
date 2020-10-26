@@ -7,7 +7,9 @@
     --mainText: black;
     --secondaryText: red;
 
-    --themeDotBorder: #24292e; 
+    --themeDotBorder: #24292e;
+
+    --previewBg: #245786;
 }
 
 html, body {
@@ -189,6 +191,13 @@ h6 {font-size: 16px;}
 
 .right-column{
     grid-area: right-column;
+}
+
+#preview{
+    width: 300px;
+    border: 1.5px solid #008dc4;
+    background-color: var(--previewBg)
+
 }
 
 @media screen and (max-width: 1200px){
