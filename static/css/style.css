@@ -133,6 +133,8 @@ h6 {font-size: 16px;}
 
 .left-column{
     grid-area: left-column;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #profile_pic{
@@ -180,7 +182,9 @@ h6 {font-size: 16px;}
 }
 
 #settings-note{
-    
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
 }
 
 .right-column{
