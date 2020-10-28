@@ -45,6 +45,13 @@ h4 {font-size: 24px;}
 h5 {font-size: 20px;}
 h6 {font-size: 16px;}
 
+.top_header{
+    background-color: #363636;
+    height: 100vh;
+    padding: 10px;
+
+}
+
 .s1{
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
