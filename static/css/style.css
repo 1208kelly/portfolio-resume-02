@@ -96,7 +96,7 @@ h6 {font-size: 16px;}
 .nav-wrapper{
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     background-color: var(--mainColor);
@@ -118,18 +118,6 @@ h6 {font-size: 16px;}
 .wrapper-left{
     display: flex;
     padding: 10px;
-}
-
-#dot-1{
-    background-color: red;
-}
-
-#dot-2{
-    background-color: yellow;
-}
-
-#dot-3{
-    background-color: green;
 }
 
 .browser-dot{
