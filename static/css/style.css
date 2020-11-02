@@ -24,14 +24,14 @@ h1, h2, h3, h4, h5, h6, strong{
     font-weight: 400;
 }
 
-p, li, span, label, input, textarea{   
+p, span, label, input, textarea{   
     color: var(--secondaryText);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: cyan;
+    color: red;
 }
 
 ul {
@@ -94,6 +94,7 @@ h6 {font-size: 16px;}
 }
 
 .nav-wrapper{
+    font-family: Roboto;
     grid-area: nav-wrapper;
     border-bottom: 1px solid var(--borderColor);
     display: inline-block;
