@@ -14,6 +14,8 @@
     --previewBg: #245786;
 }
 
+
+/*------- Animated Background -------*/
 *{
     margin: 0px;
     padding: 0px;
@@ -144,7 +146,7 @@
 
 
 
-
+/*------- Fonts & Buttons -------*/
 
 html, body {
     scroll-behavior: smooth;
@@ -205,29 +207,9 @@ ul {
     border-color: #ff7300;
 }
 
-.s1{
-    background-color: var(--mainColor);
-    border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
-}
 
-.s2{
-    background-color: var(--secondaryColor);
-    border-bottom: 1px solid var(--borderColor);
-    overflow: auto;
-}
 
-.main-container{
-    background-color: transparent;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.name-highlight{
-    color: #FF5A09;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-}
+/*------- Landing Panel -------*/
 
 .greeting-wrapper {
     position: absolute;
@@ -239,28 +221,29 @@ ul {
     min-height: 10em;
 }
 
-.intro-wrapper{
-    background-color: #fff;
-    border: 1px solid var(--borderColor);
-    border-radius: 5px 5px 0 0;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        'nav-wrapper nav-wrapper'
-        'left-column right-column'
-    ;
+.name-highlight{
+    color: #FF5A09;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
 }
 
-.nav-wrapper{
+
+
+/*------- Nav -------*/
+
+#nav-container{
+    background-color: #4e4e4e;
+    overflow: auto;
     font-family: 'Roboto Condensed', sans-serif;
-    grid-area: nav-wrapper;
-    border-bottom: 1px solid var(--borderColor);
-    display: inline-block;
+    display: block;
     justify-content: space-between;
     align-items: center;
-    background-color: #d4d4dc;
-    border-radius: 5px 5px 0 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #navigation{
@@ -280,7 +263,7 @@ ul {
 }
 
 .nav-link:hover {
-    color: #373737;
+    color: #fff;
 }
 
 .wrapper-left{
@@ -296,8 +279,10 @@ ul {
     margin: 5px;
 }
 
-.left-column{
-    grid-area: left-column;
+.portfolio-container{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -350,6 +335,22 @@ ul {
     font-size: 12px;
     font-style: italic;
     text-align: center;
+}
+
+.about-container{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-container{
+    background-color: blue;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .right-column{
