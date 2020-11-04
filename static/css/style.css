@@ -284,6 +284,10 @@ ul {
     padding-bottom: 50px;
 }
 
+
+
+/*------- About -------*/
+
 #profile_pic{
     display: block;
     margin: 0 auto;
@@ -341,6 +345,10 @@ ul {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+
+/*------- Contact -------*/
 
 .contact-container{
     background-color: blue;
