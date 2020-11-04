@@ -24,8 +24,6 @@
 .area{  
     width: 100%;
     height: 100vh;
-    
-   
 }
 
 .circles{
@@ -264,11 +262,6 @@ ul {
 
 .nav-link:hover {
     color: #fff;
-}
-
-.wrapper-left{
-    display: flex;
-    padding: 10px;
 }
 
 .browser-dot{
