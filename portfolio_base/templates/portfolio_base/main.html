@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <nav id="nav-panel container" class="sticky-top">
+    <nav class="nav-panel container-fluid sticky-top">
         <a id="view_my_work"></a>
         <div>
             <ul class="nav justify-content-center">
@@ -60,7 +60,7 @@
 
 
     <a id="view_portfolio"></a>
-    <section class="portfolio-panel container">
+    <section class="portfolio-panel container-fluid">
         <div>
             <img id="profile_pic" src="static/images/profile_picture.jpeg" alt="profile_pic">
             <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
@@ -80,7 +80,7 @@
     </section>
 
     <a id="view_about"></a>
-    <section class="about-panel container">
+    <section class="about-panel container-fluid">
         <div class="main-container" btn>
             About
 
@@ -109,9 +109,26 @@
     </section>
 
     <a id="view_contact"></a>
-    <section class="contact-panel container">
+    <section class="contact-panel container-fluid">
         <div class="panel-header animated slide-in" data-animation="slide-in">
-            Contact
+            CONTACT
+            <hr>
+        </div>
+        <div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Your Message</textarea>
+                </div>
+            </form>
         </div>
     </section>
 
