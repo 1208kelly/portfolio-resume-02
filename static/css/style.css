@@ -383,11 +383,7 @@ hr{
     text-align: center;
 }
 
-.right-column{
-    grid-area: right-column;
-    display: grid;
-    align-content: center;
-}
+
 
 #preview{
     width: 300px;
@@ -428,7 +424,7 @@ hr{
 }
 
 @media screen and (min-width: 600px){
-    form {
+    form{
         min-width: 500px;
     }
 }
