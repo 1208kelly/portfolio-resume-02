@@ -329,7 +329,7 @@ hr{
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border: 2px solid var(--borderColor);
+    border: 2px solid blue;
 }
 
 #theme-options-wrapper{
@@ -398,6 +398,12 @@ hr{
     font-weight: 400;
 }
 
+.form-control{
+    background-color: #fff;
+    color: #393f4d;
+    border: 1px solid #d4d4dc;
+}
+
 #preview{
     width: 300px;
     border: 1.5px solid red;
@@ -440,6 +446,28 @@ hr{
 
 /*------- Footer -------------------------------------------------------------------------------------------*/
 
+.page-footer{
+    border-top: 2px solid #ff5a09;
+}
+
+.list-inline{
+    margin-bottom: 5px; 
+}
+
+.list-inline-item {
+    color: #ff5a09;
+    font-size: 3vh;
+}
+
+.footer-copyright{
+    color: #fff;
+    font-weight: 200;
+}
+
+.copyright-brand{
+    color: #ff5a09;
+    font-weight: 400;
+}
 
 
 
