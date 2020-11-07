@@ -216,6 +216,7 @@ hr{
     margin-top: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
+    background-color: #00b9e7;
     border-color: #137d8d;
     z-index: 97;
 }
