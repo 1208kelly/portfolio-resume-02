@@ -67,6 +67,7 @@
     height: 60px;
     animation-delay: 0s;
     animation-duration: 18s;
+    z-index: 1;
 }
 
 .circles li:nth-child(5){
@@ -156,7 +157,7 @@ h1{
     font-size: 56px;
     color: #fff;
     margin-bottom: -15px;
-    z-index: 1;
+    z-index: 99;
 }
 
 h3{
@@ -165,7 +166,7 @@ h3{
     font-weight: 200;
     font-size: 28px;
     margin-bottom: 20px;
-    z-index: 1;
+    z-index: 98;
 }
 
 h4{
@@ -210,21 +211,19 @@ hr{
     margin: auto;
 }
 
-.btn-light{
-    background-color: transparent;
-    color: #ff5a09;
-    border-color: #ff5a09;
+.btn-info{
     margin: auto;
     margin-top: 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    z-index: 1;
+    font-size: 15px;
+    border-color: #137d8d;
+    z-index: 97;
 }
 
-.btn-light:hover{
-    background-color: #fff;
+.btn-info:hover{
+    background-color: #ff7300;
     color: #373737;
-    border-color: #ff7300;
+    border-color: #c05904;
 }
 
 
