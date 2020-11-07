@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-:root{
-    --mainColor: #eaeaea;
-    --secondaryColor: #fff;
-
-    --borderColor: #c1c1c1;
-
-    --mainText: black;
-    --secondaryText: cyan;
-
-    --themeDotBorder: #24292e;
-
-    --previewBg: #245786;
-}
 
 
 /*------- Animated Background -------------------------------------------------------------------------------------------*/
@@ -166,8 +153,17 @@ html, body {
 h1{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 56px;
     color: #fff;
+    z-index: 1;
+}
+
+h3{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-bottom: 20px;
     z-index: 1;
 }
 
@@ -179,14 +175,13 @@ h4{
     margin: 20px;
 }
 
-h2, h3, h5, h6, strong{
+h2, h5, h6, strong{
     color: yellow;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 h2 {font-size: 36px;}
-h3 {font-size: 28px;}
 h5 {font-size: 20px;}
 h6 {font-size: 16px;}
 
@@ -257,6 +252,7 @@ hr{
 .nav-panel{
     background-color: #4e4e4e;
     width: 100%;
+    height: 5vh;
     overflow: auto;
     font-family: 'Roboto Condensed', sans-serif;
     display: block;
@@ -284,11 +280,11 @@ hr{
 }
 
 .nav-link {
-    color: #ff5a09;
+    color: #fff;
 }
 
 .nav-link:hover {
-    color: #fff;
+    color: #ff5a09;
 }
 
 
@@ -297,10 +293,13 @@ hr{
 
 .portfolio-panel{
     background-color: #f7f7f7;
-    width: 100%;
-    height: 100vh;
+    width: 85%;
+    height: 90vh;
+    border-radius: 22px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .browser-dot{
@@ -317,10 +316,13 @@ hr{
 
 .about-panel{
     background-color: #f7882f;
-    width: 100%;
-    height: 100vh;
+    width: 85%;
+    height: 90vh;
+    border-radius: 22px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 #profile_pic{
@@ -379,10 +381,13 @@ hr{
 
 .contact-panel{
     background-color: #3a4660;
-    width: 100%;
-    height: 100vh;
+    width: 85%;
+    height: 90vh;
+    border-radius: 22px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 
 .panel-header{
@@ -401,7 +406,7 @@ hr{
 
 .form-control{
     background-color: #fff;
-    color: #393f4d;
+    color: #d4d4dc;
     border: 1px solid #d4d4dc;
 }
 
