@@ -139,7 +139,7 @@
 
 
 
-/*------- Slide in -------------------------------------------------------------------------------------------*/
+/*------- Title Animation on Scroll -------------------------------------------------------------------------------------------*/
 
 .scroll-title{
 	width: 30%;
@@ -151,18 +151,6 @@
 .title-appear{
     opacity: 1;
     transform: translateY(0px);
-}
-
-@keyframes slide-left{
-    0%{
-        opacity: 0;
-        transform: translateX(-300px)
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 
@@ -185,6 +173,14 @@ h1{
     z-index: 99;
 }
 
+h2{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 h3{
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
@@ -202,7 +198,7 @@ h4{
     margin: 20px;
 }
 
-h2, h5, h6, strong{
+h5, h6, strong{
     color: yellow;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;

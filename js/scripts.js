@@ -29,4 +29,4 @@ function titleAppear(){
     }
 }
 
-window.addEventListener('scroll', titleAppear);
+    window.addEventListener('scroll', titleAppear);
