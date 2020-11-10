@@ -19,25 +19,10 @@ function myFunction() {
 
 //------- Text Slide In -------------------------------------------------------------------------------------------*/
 
-var element = document.getElementsByClassName("panel-header");
-element.addEventListener("animationstart", listener, false);
-element.addEventListener("animationend", listener, false);
-element.addEventListener("animationiteration", listener, false);
-
-element.className = "slide-left";
-
-function slideStart(event) {
-  var l = document.createElement("li");
-  switch(event.type) {
-    case "animationstart":
-      l.innerHTML = "Started: elapsed time is " + event.elapsedTime;
-      break;
-    case "animationend":
-      l.innerHTML = "Ended: elapsed time is " + event.elapsedTime;
-      break;
-    case "animationiteration":
-      l.innerHTML = "New loop started at time " + event.elapsedTime;
-      break;
-  }
-  document.getElementById("output").appendChild(l);
+function titleAppear(){
+    var scrollTitle = document.querySelector('.scroll-title');
+    var titlePosition = scrollTitle.getBoundingClientRect().top;
+    console.log(titlePosition);
 }
+
+titleAppear();
