@@ -22,7 +22,11 @@ function myFunction() {
 function titleAppear(){
     var scrollTitle = document.querySelector('.scroll-title');
     var titlePosition = scrollTitle.getBoundingClientRect().top;
-    console.log(titlePosition);
+    var screenPosition = window.innerHeight / 1.3;
+
+    if(titlePosition < screenPosition){
+        scrollTitle.classList.add('title-appear');
+    }
 }
 
-titleAppear();
+window.addEventListener('scroll', titleAppear);
