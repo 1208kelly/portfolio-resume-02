@@ -142,7 +142,6 @@
 /*------- Title Animation on Scroll -------------------------------------------------------------------------------------------*/
 
 .scroll-title{
-	width: 30%;
     opacity: 0;
     transform: translateY(20px);
     transition: 1s all ease-in-out;
@@ -174,11 +173,11 @@ h1{
 }
 
 h2{
-    color: #000;
-    font-family: 'Josefin Sans', sans-serif;
+    color: #373737;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 200;
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: -35px;
 }
 
 h3{
@@ -204,7 +203,6 @@ h5, h6, strong{
     font-weight: 400;
 }
 
-h2 {font-size: 36px;}
 h5 {font-size: 20px;}
 h6 {font-size: 16px;}
 
@@ -226,10 +224,11 @@ ul {
 }
 
 hr{
-    background-color: #4e4e4e;
-    height: 0;
+    background-color: #373737;
+    height: 2px;
     width: 8%;
     margin: auto;
+    margin-bottom: 20px;
     border: 0;
 }
 
@@ -261,7 +260,7 @@ hr{
     width: 85%;
     height: 90vh;
     border-radius: 22px;
-    padding-top: 30px;
+    padding-top: 5px;
     padding-bottom: 50px;
     margin-top: 80px;
     margin-bottom: 20px;
