@@ -256,9 +256,9 @@ hr{
 /*------- Containers & Boxes -------------------------------------------------------------------------------------------*/
 
 .container-fluid{
-    width: 85%;
+    width: 100%;
     height: 90vh;
-    border-radius: 22px;
+    border-radius: 0;
     padding-top: 5px;
     padding-bottom: 50px;
     margin-top: 80px;
