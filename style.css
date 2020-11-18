@@ -235,7 +235,6 @@ hr{
 .btn-link{
     margin: auto;
     margin-top: 20px;
-    padding-top: 10px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -285,6 +284,10 @@ hr{
     color: #ff5a09;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+}
+
+.view-btn{
+    padding-top: 10px;
 }
 
 
@@ -384,41 +387,6 @@ hr{
     border: 2px solid blue;
 }
 
-#theme-options-wrapper{
-    display: flex;
-    justify-content: center;
-}
-
-.theme-dot{
-    height: 30px;
-    width: 30px;
-    background-color: black;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 5px;
-    border: 2px solid var(--themeDotBorder);
-}
-
-.theme-dot:hover{
-    border-width: 5px;
-}
-
-#light-mode{
-    background-color: #fff;
-}
-
-#blue-mode{
-    background-color: blue;
-}
-
-#green-mode{
-    background-color: green;
-}
-
-#purple-mode{
-    background-color: purple;
-}
-
 #settings-note{
     font-size: 12px;
     font-style: italic;
@@ -445,26 +413,18 @@ hr{
     border: 1px solid #d4d4dc;
 }
 
-#preview{
-    width: 300px;
-    border: 1.5px solid red;
-    background-color: var(--previewBg);
-    padding: 15px;
-    position: relative;
-
-}
-
-.corner{
-    height: 7px;
-    width: 7px;
-    border-radius: 50%;
-    border: 1.5px solid red;
-    background-color: #fff;
-    position: absolute;
-}
-
 .contact-btn{
     text-align: center;
+}
+
+.submit-btn{
+    color: #fff;
+    background-color: #373737;
+    border-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 6;
 }
 
 
