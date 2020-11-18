@@ -463,24 +463,8 @@ hr{
     position: absolute;
 }
 
-#corner-tl{
-    top: 5px;
-    left: -5px;
-}
-
-#corner-tr{
-    top: 5px;
-    right: -5px;
-}
-
-#corner-bl{
-    bottom: 5px;
-    left: -5px;
-}
-
-#corner-br{
-    bottom: 5px;
-    right: -5px;
+.contact-btn{
+    text-align: center;
 }
 
 
