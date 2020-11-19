@@ -258,7 +258,6 @@ hr{
 .container-fluid{
     width: 100%;
     height: 90vh;
-    border-radius: 0;
     padding-top: 5px;
     padding-bottom: 50px;
     margin-top: 80px;
@@ -336,9 +335,21 @@ hr{
 
 /*------- Portfolio -------------------------------------------------------------------------------------------*/
 
+.portfolio-img{
+    position: absolute;
+    float:left;
+    width: 25%;
+    margin-top: 14rem;
+    margin-left: 2rem;
+
+}
 .portfolio-panel{
     background-color: #dddddd;
     margin-top: 60px;
+    width: 80%;
+    border-radius: 0;
+    float: right;
+    margin-right: 2rem;
 }
 
 .panel-header{
@@ -376,6 +387,9 @@ hr{
 
 .about-panel{
     background-color: #dddddd;
+    width: 85%;
+    border-radius: 22px;
+
 }
 
 #profile_pic{
@@ -400,6 +414,8 @@ hr{
 .contact-panel{
     background-color: #dddddd;
     margin-bottom: 120px;
+    width: 100%;
+    border-radius: 0;
 }
 
 .lets-chat{
