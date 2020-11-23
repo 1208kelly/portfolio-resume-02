@@ -304,7 +304,9 @@ hr{
 }
 
 #contact-text{
-
+    display: flex;
+    width: 100%;
+    text-align: center;
 }
 
 .contact-highlight{
@@ -329,7 +331,7 @@ hr{
     background-color: #ff5a09;
     border-color: #ff5a09;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
