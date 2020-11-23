@@ -282,6 +282,7 @@ hr{
 }
 
 #contact-tagline{
+    display: grid;
     color: #373737;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
